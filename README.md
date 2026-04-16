@@ -11,6 +11,9 @@ Source code of the ImgNetMaker tool is located in the docs folder.
 It is made entirely from HTML, CSS and JavaScript, 
 runs in the browser and is deployed using GitHub Pages.
 
+How to cite:
+Omena, J. J., & Jünger, J. (2025). ImgNetMaker (beta version) [Computer software]. GitHub. Conceptualised in the context of Omena’s 2025 research fellowship at the Centre for Digitized Public Spheres Research, University of Münster, and implemented during Methods Café Week, Münster.
+
 **2. Exploration & Analysis Scripts**
 
 Folder Structure:  
