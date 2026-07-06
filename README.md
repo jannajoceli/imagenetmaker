@@ -11,6 +11,10 @@ Source code of the ImgNetMaker tool is located in the docs folder.
 It is made entirely from HTML, CSS and JavaScript, 
 runs in the browser and is deployed using GitHub Pages.
 
+You can export the resulting data, 
+convert it to a gexf file using [Table2Net](https://medialab.github.io/table2net/),
+and visualize it with [Gephi Lite](https://gephi.org/gephi-lite/).
+
 How to cite:
 Omena, J. J., & Jünger, J. (2025). ImgNetMaker (beta version) [Computer software]. GitHub. Conceptualised in the context of Omena’s 2025 research fellowship at the Centre for Digitized Public Spheres Research, University of Münster, and implemented during Methods Café Week, Münster.
 
@@ -62,37 +66,6 @@ For local development:
 
 See the scripts folder for examples to generate image descriptions, extract text,
 feed images to a llm, extract image components or calculate image similarity using embeddings.
-
-## Facepager: Getting started with image prompts to the OpenAI API
-
-1. Install the latest Facepager version
-2. Create a database (New database) and 
-   add image files as seed nodes (Add Nodes -> Add files, then select some images). 
-3. Open the image prompt preset in the OpenAI category (Preset button)
-4. Enter your API key into the Access Token field
-5. Fetch data
-
-## Facepager: Getting started with using the Google Cloud Vision API
-
-*You need to register an app at the google cloud console and enable billing.
-Find some hints in the [Facepager wiki](https://github.com/strohne/Facepager/wiki/Getting-Started-with-Google-Cloud-Platform).
-Alternatively, ask someone to borrow credentials. Careful: Costs may be generated.*
-
-1. Install the latest Facepager version
-2. Create a database (New database) and 
-   add image files as seed nodes (Add Nodes -> Add files, then select some images). 
-3. Open the web detection preset in the Google Cloud Platform category 
-4. Set OAuth2 client key and client secret of your Google Cloud vision project (Settings button). 
-   In the headers, change the project ID according to your Google Cloud Vision project.
-5. Login and fetch data
-
-You can export the resulting data, 
-convert it to a gexf file using [Table2Net](https://medialab.github.io/table2net/),
-and visualize it with [Gephi Lite](https://gephi.org/gephi-lite/).
-
-Recommended export options: wide format, comma as separator, only the level with the final data.  
-For keeping ids, scores and descriptions of the web entities in the network,
- unpack the web entities in Facepager before exporting (-> Extract Data button). 
 
 ## Getting started with Jupyter
 
