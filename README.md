@@ -57,7 +57,7 @@ The application runs in the browser and does not require a server-side installat
 
 ## How to cite
 
-Omena, J. J., & Jünger, J. (2025). *ImgNetMaker* (v0.1.0-beta) [Computer software]. GitHub. Conceptualised during Omena's 2025 research fellowship at the Centre for Digitized Public Spheres Research, University of Münster, and implemented during Methods Café Week in Münster.
+Omena, J. J., & Jünger, J. (2025). *ImgNetMaker* (v0.1.0-beta) [Computer software]. GitHub. Conceptualised by Janna Joceli Omena prior to her 2025 research fellowship at the Centre for Digitized Public Spheres Research, University of Münster, and implemented mainly during Methods Café Week in Münster.
 
 ## Contributors
 
